@@ -426,7 +426,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3427158246262808723}
   - component: {fileID: 8117817013362669116}
-  - component: {fileID: 720160034275392625}
   - component: {fileID: -4844827500575028003}
   - component: {fileID: -7308265046709677150}
   m_Layer: 6
@@ -469,22 +468,6 @@ MonoBehaviour:
   light: {fileID: 6005491627582629375}
   toggle: 0
   toggleSound: {fileID: 0}
---- !u!114 &720160034275392625
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9024512076003744973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06726af31c1148b4aab20c48999e9f49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  flashlightItem: {fileID: 0}
-  flashlight_table: {fileID: 0}
-  pickupUI: {fileID: 0}
-  interactable: 0
 --- !u!54 &-4844827500575028003
 Rigidbody:
   m_ObjectHideFlags: 0
