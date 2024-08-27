@@ -9,6 +9,7 @@ public class MainMenu : MonoBehaviour
     public void PlayGame()
     {
         SceneManager.LoadScene("Level1");
+        AudioManager.instance.PlayMusic("Level1");
     }
     public void SettingMenu()
     {

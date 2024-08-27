@@ -45,6 +45,7 @@ public class Doors : MonoBehaviour
     {
         if (GameManager.instance.currentInteractor == gameObject && interactable == true && !needKey)
         {
+
             if (Input.GetKeyDown(KeyCode.E))
             {
                 if (!open)
@@ -54,7 +55,7 @@ public class Doors : MonoBehaviour
                     doorAnim.SetTrigger("DoorOpen");
 
                     // Play open door sound
-                    AudioManager.instance.PlaySFX("DoorOpening");
+                  //  AudioManager.instance.PlaySFX("DoorOpening");
 
                 }
                 else
@@ -64,7 +65,7 @@ public class Doors : MonoBehaviour
                     doorAnim.SetTrigger("DoorClose");
 
                     // Play close door sound
-                    AudioManager.instance.PlaySFX("DoorClosing");
+                  //  AudioManager.instance.PlaySFX("DoorClosing");
                 }
             }
         }
